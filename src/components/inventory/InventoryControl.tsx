@@ -9,7 +9,7 @@ import { fetchNui } from '../../utils/fetchNui';
 import { Locale } from '../../store/locale';
 
 // IMAGE IMPORT
-import laidLogo from '../img/laid.png';
+import laidLogo from '../../img/laid.png';
 
 const formatAmount = (n: number) =>
   n > 0 ? n.toLocaleString('en-US') : '0';
